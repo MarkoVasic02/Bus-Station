@@ -187,8 +187,6 @@ using namespace std;
             }
         }
 
-
-        // no need to explain :)
         cout << "What is your name?" << endl;
         cin >> passanger_name;
 
@@ -198,8 +196,8 @@ using namespace std;
         }
     }
 
-    // Displaying all the available
-    // buses
+    // Displaying all the
+    // available buses
     void avail_bss()
     {
         for(i=0; i<50; i++)
