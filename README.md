@@ -21,11 +21,13 @@ Problems:
   The problem is that when a seat is reserved, that passangers name appears next to each
   seat number instead of only that one.
   
-- I also tried to add all of the functions to one class ( BusStation class ), make a station object
-  and just call the choose( ) function but in that case something happens to the two arrays.
-  ( one is for bus numbers and the other is for seat numbers )
-  They get some random weird values like 0,0,0,1849287,0,0,45235 and so on.
-  That would be the second problem for now.
+Last Fixes:
+- I added implemented class in the project and fixed the array problem 
+ with two for loops ( in the constructor function ) assigning starting
+ values to arrays.
+- Deleted unnecessary counters. 
+- Used shorthand in the cases of short if statements.
+- Fixed how some if statements behave when value of -1 is given ( not all of them )
+- Also changed some comments
   
-  For now I'm only adding the code like it was before adding a class.
-  
+Now I finaly added code with implemented class.
